@@ -26,7 +26,7 @@ Preview the deployment:
 
 
 
-az deployment group what-if -g rg-hcdd412-w7 -f main.bicep -p appName=tzp54015
+az deployment group what-if -g rg-hcdd412-w7 -f main.bicep -p appName=tzp540156
 
 
 
@@ -34,7 +34,7 @@ Deploy the resources:
 
 
 
-az deployment group create -g rg-hcdd412-w7 -f main.bicep -p appName=tzp54015
+az deployment group create -g rg-hcdd412-w7 -f main.bicep -p appName=tzp540156
 
 
 
@@ -42,7 +42,7 @@ After deployment, run the what-if command againto confirm that there are no addi
 
 
 
-az deployment group what-if -g rg-hcdd412-w7 -f main.bicep -p appName=tzp54015
+az deployment group what-if -g rg-hcdd412-w7 -f main.bicep -p appName=tzp540156
 
 
 
